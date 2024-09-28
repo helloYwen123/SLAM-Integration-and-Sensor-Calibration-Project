@@ -83,7 +83,7 @@ rosrun cartographer_ros cartographer_pbstream_to_ros_map \
 -map_filestem=<path-to-map>
 ```
 
-## Pure Localization Model
+## Pure Localization Mode
 `cartographer` offers possibility to do Pure Localization, which make robot focus on Localization and disable Mapping.
 To do so, you need to run another Launch file in Package.
 ```bash

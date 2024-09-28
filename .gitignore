@@ -1,0 +1,16 @@
+cmake-build*
+.catkin_tools
+.idea
+CMakeLists.txt.user
+build
+*.cereal
+.DS_Store
+*~
+__pycache__
+devel
+logs
+#building and compiling
+.vscode/
+CMakeLists_mine.txt
+.catkin_workspace
+bazel-*

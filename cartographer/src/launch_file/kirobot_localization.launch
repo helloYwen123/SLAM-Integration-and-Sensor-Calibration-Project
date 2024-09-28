@@ -1,0 +1,25 @@
+<launch>
+    <arg name = "scan_topic_front" default= "/robot/front_laser/scan"/>
+   
+    <arg name = "scan_topic_rear" default= "/robot/rear_laser/scan"/> 
+    <arg name = "3d_scan_topic" default= "/robot/top_3d_lidar/points"/>
+    <arg name = "imu_topic" default = "/robot/imu/data"/>
+    <arg name = "odom_topic" default = "/robot/robotnik_base_control/odom"/>
+   
+     <node name="cartographer_node" pkg="cartographer_ros"
+         type="cartographer_node" args="
+             -configuration_directory $(find cartographer_ros)/configuration_files
+             -configuration_basename kirobot_localization.lua
+             -load_state_filename /root/catkin_ws/map/20240911_15-00-15.pbstream"
+         output="screen">
+       <remap from="scan_1" to="$(arg scan_topic_front)"/>
+       <remap from="scan_2" to="$(arg scan_topic_rear)"/>
+       <remap from="imu" to="$(arg imu_topic)"/>
+       <remap from="odom" to="$(arg odom_topic)"/>
+     </node>
+   
+     <node name="cartographer_occupancy_grid_node" pkg="cartographer_ros"
+         type="cartographer_occupancy_grid_node" args="-resolution 0.075" />
+   
+   </launch>
+   

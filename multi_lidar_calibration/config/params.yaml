@@ -1,0 +1,8 @@
+# 由source 指向 target
+source_lidar_topic: /robot/rear_laser/scan
+target_lidar_topic: /robot/front_laser/scan
+
+source_lidar_frame: robot_rear_laser_link
+target_lidar_frame: robot_front_laser_link
+
+ndt_score:  20 #--5.386

@@ -1,4 +1,4 @@
-# Multi 2D-Lidar Lcalibration Pacakge
+# Multi 2D-Lidar Calibration Pacakge
 ***Multi Lidar Calibration*** is ros-package that uses ndt to calibrate two single-line lasers and correct their the relative position relationship. 
 
 ## Installation ad Build

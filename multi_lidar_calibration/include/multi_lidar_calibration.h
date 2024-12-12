@@ -1,9 +1,3 @@
-/*
- * @Author: Ziming.Liu 
- * @Date: 2021-06-Fr 03:29:18 
- * @Last Modified by:   Ziming.Liu 
- * @Last Modified time: 2021-06-Fr 03:29:18 
- */
 
 #ifndef MULTI_LIDAR_CALIBRATION_H_
 #define MULTI_LIDAR_CALIBRATION_H_

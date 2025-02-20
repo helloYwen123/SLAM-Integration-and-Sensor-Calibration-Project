@@ -56,8 +56,8 @@ roslaunch multi_lidar_calibration multi_lidar_calibration.launch
 
 As displayed in RViz, the white PointCloud represents the registered data, and you can directly retrieve the registered Transformation information from the terminal.
 
-![image]([./picture/Screenshot from 2024-09-27 21-00-37.png](https://github.com/helloYwen123/SLAM-Integration-and-Sensor-Calibration-Project/blob/master/multi_lidar_calibration/picture/Screenshot%20from%202024-09-27%2021-00-37.png))
-![image]([./picture/Screenshot from 2024-09-27 21-10-24.png](https://github.com/helloYwen123/SLAM-Integration-and-Sensor-Calibration-Project/blob/master/multi_lidar_calibration/picture/Screenshot%20from%202024-09-27%2021-10-24.png))
+![image](https://github.com/helloYwen123/SLAM-Integration-and-Sensor-Calibration-Project/blob/master/multi_lidar_calibration/picture/Screenshot%20from%202024-09-27%2021-00-37.png))
+![image](https://github.com/helloYwen123/SLAM-Integration-and-Sensor-Calibration-Project/blob/master/multi_lidar_calibration/picture/Screenshot%20from%202024-09-27%2021-10-24.png)
 
 
 
